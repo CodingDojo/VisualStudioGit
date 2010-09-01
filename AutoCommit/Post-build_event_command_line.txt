@@ -1,0 +1,1 @@
+powershell.exe -noprofile -command "cd ""$(SolutionDir)"";cd (git rev-parse --show-cdup);git add -A;git commit -m ""autocommit after successful build"""
